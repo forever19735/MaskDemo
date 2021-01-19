@@ -38,25 +38,25 @@ extension NetworkManager {
             return .fail(NetworkResponse.failed.rawValue)
         }
     }
-    
-    func request<T: EndPointType, MO: Decodable>(_ target: T, model: MO.Type, completion: @escaping (_ object: MO?, _ error: String?) -> Void) {
+
+    func request<T: EndPointType, MO: Decodable>(_ target: T, model: MO.Type, completion:  ((Result<MO, String>)-> Void)?) {
         Router<T>().request(target) { (data, response , error) in
             if let response = response as? HTTPURLResponse {
                 let reuslt = self.handleNetworkResponse(response)
                 switch reuslt {
                 case .success:
                     guard let responseData = data else {
-                        completion(nil, NetworkResponse.failed.rawValue)
+                        completion?(.fail(NetworkResponse.failed.rawValue))
                         return
                     }
                     do {
                         let apiResponse = try JSONDecoder().decode(model.self, from: responseData)
-                        completion(apiResponse, nil)
+                        completion?(.success(apiResponse))
                     } catch {
-                        completion(nil, NetworkResponse.failed.rawValue)
+                        completion?(.fail(NetworkResponse.failed.rawValue))
                     }
                 case .fail(let error):
-                    completion(nil, error)
+                    completion?(.fail(error))
                 }
             }
         }

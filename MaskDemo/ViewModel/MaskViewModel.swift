@@ -12,10 +12,15 @@ class MaskViewModel {
     var data: MaskFeatures?
 
     func fetchMask(complete: ((_ result: Bool) -> Void)? = nil) {
-        NetworkManager.shared.request(MaskAPI.getValue, model: MaskFeatures.self) { (data, _) in
-            self.data = data
-            complete?(true)
-            print(data)
+        NetworkManager.shared.request(MaskAPI.getValue, model: MaskFeatures.self) { (result) in
+            switch result {
+            case .success(let content):
+                self.data = content
+                complete?(true)
+            case .fail(let error):
+                print(error)
+                complete?(false)
+            }
         }
     }
 }
