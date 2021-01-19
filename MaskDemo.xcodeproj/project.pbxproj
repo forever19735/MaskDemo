@@ -12,6 +12,20 @@
 		B540FFF6247FFF6600998F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540FFF4247FFF6600998F94 /* Main.storyboard */; };
 		B540FFF8247FFF7200998F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B540FFF7247FFF7200998F94 /* Assets.xcassets */; };
 		B540FFFB247FFF7300998F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540FFF9247FFF7300998F94 /* LaunchScreen.storyboard */; };
+		B5AAF96925B7057D00FF4E67 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AAF96825B7057C00FF4E67 /* Extensions.swift */; };
+		B5B8C1D4249FBD9000D314BF /* MaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8C1D3249FBD9000D314BF /* MaskViewModel.swift */; };
+		B5B8C1D7249FBE7700D314BF /* MaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8C1D5249FBE7700D314BF /* MaskTableViewCell.swift */; };
+		B5B8C1D8249FBE7700D314BF /* MaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B8C1D6249FBE7700D314BF /* MaskTableViewCell.xib */; };
+		B5B8C1DA249FBFBE00D314BF /* ConfigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8C1D9249FBFBE00D314BF /* ConfigCell.swift */; };
+		B5CAD33B2481525500B81E22 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD33A2481525500B81E22 /* EndPointType.swift */; };
+		B5CAD33D248152B700B81E22 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD33C248152B700B81E22 /* HTTPMethod.swift */; };
+		B5CAD33F248152C100B81E22 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD33E248152C100B81E22 /* HTTPTask.swift */; };
+		B5CAD3412481576600B81E22 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD3402481576600B81E22 /* ParameterEncoding.swift */; };
+		B5CAD34324815C2A00B81E22 /* MaskAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD34224815C2A00B81E22 /* MaskAPI.swift */; };
+		B5CAD34524815D7600B81E22 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD34424815D7600B81E22 /* NetworkRouter.swift */; };
+		B5CAD3472481694E00B81E22 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD3462481694E00B81E22 /* Router.swift */; };
+		B5CAD3492487F54900B81E22 /* NetwrokManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD3482487F54900B81E22 /* NetwrokManager.swift */; };
+		B5CAD34B2487FB4F00B81E22 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAD34A2487FB4F00B81E22 /* Mask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		B540FFF7247FFF7200998F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B540FFFA247FFF7300998F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B540FFFC247FFF7300998F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AAF96825B7057C00FF4E67 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5B8C1D3249FBD9000D314BF /* MaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewModel.swift; sourceTree = "<group>"; };
+		B5B8C1D5249FBE7700D314BF /* MaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTableViewCell.swift; sourceTree = "<group>"; };
+		B5B8C1D6249FBE7700D314BF /* MaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskTableViewCell.xib; sourceTree = "<group>"; };
+		B5B8C1D9249FBFBE00D314BF /* ConfigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigCell.swift; sourceTree = "<group>"; };
+		B5CAD33A2481525500B81E22 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		B5CAD33C248152B700B81E22 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B5CAD33E248152C100B81E22 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		B5CAD3402481576600B81E22 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		B5CAD34224815C2A00B81E22 /* MaskAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskAPI.swift; sourceTree = "<group>"; };
+		B5CAD34424815D7600B81E22 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		B5CAD3462481694E00B81E22 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B5CAD3482487F54900B81E22 /* NetwrokManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwrokManager.swift; sourceTree = "<group>"; };
+		B5CAD34A2487FB4F00B81E22 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,84 @@
 		B540FFEF247FFF6600998F94 /* MaskDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B540FFF0247FFF6600998F94 /* AppDelegate.swift */,
-				B540FFF2247FFF6600998F94 /* ViewController.swift */,
-				B540FFF4247FFF6600998F94 /* Main.storyboard */,
 				B540FFF7247FFF7200998F94 /* Assets.xcassets */,
-				B540FFF9247FFF7300998F94 /* LaunchScreen.storyboard */,
 				B540FFFC247FFF7300998F94 /* Info.plist */,
+				B5AAF96F25B7182800FF4E67 /* SupportingFile */,
+				B5AAF96A25B717B200FF4E67 /* Networking */,
+				B5AAF97025B718F900FF4E67 /* API */,
+				B5AAF96D25B717EF00FF4E67 /* Model */,
+				B5AAF96C25B717E500FF4E67 /* ViewModel */,
+				B5AAF96B25B717DA00FF4E67 /* View */,
+				B5AAF96E25B7180100FF4E67 /* UIUtility */,
 			);
 			path = MaskDemo;
+			sourceTree = "<group>";
+		};
+		B5AAF96A25B717B200FF4E67 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAD33A2481525500B81E22 /* EndPointType.swift */,
+				B5CAD33C248152B700B81E22 /* HTTPMethod.swift */,
+				B5CAD33E248152C100B81E22 /* HTTPTask.swift */,
+				B5CAD3402481576600B81E22 /* ParameterEncoding.swift */,
+				B5CAD34424815D7600B81E22 /* NetworkRouter.swift */,
+				B5CAD3462481694E00B81E22 /* Router.swift */,
+				B5CAD3482487F54900B81E22 /* NetwrokManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B5AAF96B25B717DA00FF4E67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B540FFF2247FFF6600998F94 /* ViewController.swift */,
+				B5B8C1D5249FBE7700D314BF /* MaskTableViewCell.swift */,
+				B5B8C1D6249FBE7700D314BF /* MaskTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5AAF96C25B717E500FF4E67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5B8C1D3249FBD9000D314BF /* MaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5AAF96D25B717EF00FF4E67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAD34A2487FB4F00B81E22 /* Mask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5AAF96E25B7180100FF4E67 /* UIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				B5B8C1D9249FBFBE00D314BF /* ConfigCell.swift */,
+				B5AAF96825B7057C00FF4E67 /* Extensions.swift */,
+			);
+			path = UIUtility;
+			sourceTree = "<group>";
+		};
+		B5AAF96F25B7182800FF4E67 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				B540FFF0247FFF6600998F94 /* AppDelegate.swift */,
+				B540FFF4247FFF6600998F94 /* Main.storyboard */,
+				B540FFF9247FFF7300998F94 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		B5AAF97025B718F900FF4E67 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAD34224815C2A00B81E22 /* MaskAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B540FFFB247FFF7300998F94 /* LaunchScreen.storyboard in Resources */,
+				B5B8C1D8249FBE7700D314BF /* MaskTableViewCell.xib in Resources */,
 				B540FFF8247FFF7200998F94 /* Assets.xcassets in Resources */,
 				B540FFF6247FFF6600998F94 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CAD3412481576600B81E22 /* ParameterEncoding.swift in Sources */,
+				B5CAD34B2487FB4F00B81E22 /* Mask.swift in Sources */,
+				B5B8C1D4249FBD9000D314BF /* MaskViewModel.swift in Sources */,
+				B5B8C1DA249FBFBE00D314BF /* ConfigCell.swift in Sources */,
+				B5CAD34524815D7600B81E22 /* NetworkRouter.swift in Sources */,
+				B5CAD33D248152B700B81E22 /* HTTPMethod.swift in Sources */,
 				B540FFF3247FFF6600998F94 /* ViewController.swift in Sources */,
+				B5CAD3492487F54900B81E22 /* NetwrokManager.swift in Sources */,
+				B5CAD3472481694E00B81E22 /* Router.swift in Sources */,
 				B540FFF1247FFF6600998F94 /* AppDelegate.swift in Sources */,
+				B5AAF96925B7057D00FF4E67 /* Extensions.swift in Sources */,
+				B5CAD33F248152C100B81E22 /* HTTPTask.swift in Sources */,
+				B5CAD33B2481525500B81E22 /* EndPointType.swift in Sources */,
+				B5B8C1D7249FBE7700D314BF /* MaskTableViewCell.swift in Sources */,
+				B5CAD34324815C2A00B81E22 /* MaskAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
